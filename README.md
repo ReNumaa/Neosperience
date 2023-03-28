@@ -1,4 +1,4 @@
-# Neosperience
+# Neosperience pratice test
 
 Per quanto riguarda la Fase 3 non sono riuscito ad utilizzare Postman, sembrava forse per problemi alla rete.
 Di fatto ho utilizzato cURL tramite PowerShell.
