@@ -27,14 +27,14 @@ const Student = {
 if (this.grades.length === 0) {
       return 0;
     }
-    // Somma tutti i voti dell'array dei voti utilizzando il metodo reduce
+    // Somma tutti i voti dell'array dei voti
     const total = this.grades.reduce((acc, grade) => acc + grade);
     // Calcola la media dividendo la somma dei voti per il numero di voti
     return total / this.grades.length;
   } 
 };
 
-
+// (Non richiesto)
 const studente1 = Object.create(Student);
 studente1.firstname = 'Mario';
 studente1.lastname = 'Rossi';
